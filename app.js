@@ -15,10 +15,29 @@ function getRandomColor() {
     return color;
 }
 
+function getContrastColor(hexColor) {
+    // Convert hex to RGB
+    const r = parseInt(hexColor.substr(1, 2), 16);
+    const g = parseInt(hexColor.substr(3, 2), 16);
+    const b = parseInt(hexColor.substr(5, 2), 16);
+    
+    // Calculate luminance
+    const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    
+    // Return black for light colors, white for dark colors
+    return luminance > 0.5 ? '#000000' : '#FFFFFF';
+}
+
 function updateRandomString() {
     const string = getRandomString();
     randomStringElement.textContent = string;
-    container.style.backgroundColor = getRandomColor();
+    
+    const bgColor = getRandomColor();
+    container.style.backgroundColor = bgColor;
+    
+    const textColor = getContrastColor(bgColor);
+    randomStringElement.style.color = textColor;
+    
     fitStringToScreen();
 }
 
