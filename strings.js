@@ -9,7 +9,7 @@ const strings = [
   "Drive with your disc upside down.",
   "Overhand drive",
   "Must use one forehand and one backhand on this hole.",
-  "Putt  \"Weak hand putt",
+  "Weak hand putt",
   "Weak hand drive",
   "Drive must be a roller and putt must be a turbo.",
   "Approach shot with upside-down disc.",
@@ -17,7 +17,7 @@ const strings = [
   "You get 10 steps forward from tee box and from each lie.",
   "An opponent picks a disc from your bag for each of your throws.",
   "Pick a disc from an opponent's bag for each of your throws.",
-  "Have an opp  \"Putt with your disc upside down.",
+  "Putt with your disc upside down.",
   "Drive with your mini.",
   "Drive with your weak hand.",
   "Drive with your most overstable disc.",
@@ -32,5 +32,6 @@ const strings = [
   "Drive with a putter.",
   "Putt with a driver.",
   "Drive with your most understable disc.",
-  "Scream \"NICE ONE, BRO!\" when each person drives."
+  "Scream \"NICE ONE, BRO!\" when each person drives.",
+  "Opponent chooses a disc for you to drive with"
 ];
