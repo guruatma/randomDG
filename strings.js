@@ -14,6 +14,7 @@ const strings = [
   "Drive must be a roller and putt must be a turbo.",
   "Approach shot with upside-down disc.",
   "Weak hand sidearm drive.",
+    "Must throw a thumber on either drive or upshot",
   "You get 10 steps forward from tee box and from each lie.",
   "An opponent picks a disc from your bag for each of your throws.",
   "Pick a disc from an opponent's bag for each of your throws.",
@@ -25,7 +26,7 @@ const strings = [
   "Sidearm for every throw this hole",
   "You can heckle one opponent this hole.",
   "Drive with a disc from your opponent's bag.",
-  "Thumber  \"Drive must be a roller.",
+  "Drive must be a roller.",
   "Person with the worst score gives you a mando.",
   "Under the leg putt.",
   "Choose one disc from opponent's bag to use for entire hole.",
@@ -34,4 +35,6 @@ const strings = [
   "Drive with your most understable disc.",
   "Scream \"NICE ONE, BRO!\" when each person drives.",
   "Opponent chooses a disc for you to drive with"
+    "Drive must be a hyzer.",
+    "Drive must be anhyzer."
 ];
