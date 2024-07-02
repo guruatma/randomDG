@@ -34,7 +34,7 @@ const strings = [
   "Putt with a driver.",
   "Drive with your most understable disc.",
   "Scream \"NICE ONE, BRO!\" when each person drives.",
-  "Opponent chooses a disc for you to drive with"
+  "Opponent chooses a disc for you to drive with",
     "Drive must be a hyzer.",
     "Drive must be anhyzer."
 ];
